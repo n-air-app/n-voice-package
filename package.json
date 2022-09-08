@@ -1,6 +1,6 @@
 {
   "name": "n-voice-package",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "",
   "main": "dist/index.umd.min.js",
   "module": "dist/index.es.js",
@@ -8,16 +8,15 @@
   "files": [
     "dist/*.js",
     "dist/*.d.ts",
-    "n-voice_20220826.zip"
+    "n-voice/**/*"
   ],
   "scripts": {
     "build": "rollup -c",
     "prepack": "npm run build",
-    "install": "unzip -o n-voice_20220826.zip",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN n-voice/LICENSE/LICENSE_N-Voice.txt",
   "dependencies": {
     "@rollup/plugin-babel": "^5.3.1",
     "@types/node": "^18.6.3",
