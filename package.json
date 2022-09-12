@@ -1,6 +1,6 @@
 {
   "name": "@n-air-app/n-voice-package",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "",
   "main": "dist/index.umd.min.js",
   "module": "dist/index.es.js",
@@ -12,7 +12,7 @@
   ],
   "repository": "https://github.com/n-air-app/n-voice-release.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "rollup -c",
