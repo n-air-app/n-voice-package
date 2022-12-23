@@ -1,6 +1,6 @@
 {
   "name": "@n-air-app/n-voice-package",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "",
   "main": "dist/index.umd.min.js",
   "module": "dist/index.es.js",
