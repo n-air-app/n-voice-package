@@ -1,0 +1,45 @@
+name: test
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+      - 'rollup.config.js'
+      - 'src/**'
+      - 'n-voice/**'
+      - '.github/workflows/test.yml'
+  push:
+    branches:
+      - 'main'
+    tags-ignore:
+      - '**'
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+      - 'rollup.config.js'
+      - 'src/**'
+      - 'n-voice/**'
+      - '.github/workflows/test.yml'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-2019
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+        cache: 'npm'
+
+    - name: Install
+      run: npm install
+
+    - name: build test (for Syntax check)
+      run: |
+        npm run build
