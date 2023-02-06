@@ -38,5 +38,5 @@ All rights reserved.
 ## publish package
 update version and
 ```bash
-npm publish
+git push && git push --tags
 ```
