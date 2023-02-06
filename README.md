@@ -1,6 +1,6 @@
 # n-voice-package
 
-日本語音声合成エンジン　N Voice の実行ファイルセットとその Node.js用パッケージ
+日本語音声合成エンジン　N Voice(琴詠ニア)の実行ファイルセットとその Node.js用パッケージ
 
 ## 実行環境
 Windows (x86-64bit)
