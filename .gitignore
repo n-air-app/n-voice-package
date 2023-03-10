@@ -4,5 +4,6 @@ node_modules
 n-voice-jss
 n-voice/test.wav
 n-voice/test.wav.txt
+n-voice/user.dic
 *.zip
 

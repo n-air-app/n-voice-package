@@ -19,6 +19,10 @@ npm login --scope=@n-air-app --registry=https://npm.pkg.github.com
 yarn add @n-air-app/n-voice-package
 ```
 
+## ユーザー辞書をビルドする
+ユーザー辞書は `user.csv` から `npm run dic` でビルドします。
+npm などでinstallするときはパッケージビルド時に構築していますが、このリポジトリを`git clone` した環境では適宜 `npm run dic` でビルドしてください。
+
 ## N Voice の利用方法
 [n-voice/doc/README.md](n-voice/doc/README.md)
 
