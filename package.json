@@ -15,7 +15,8 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
-    "build": "rollup -c",
+    "dic": "cd n-voice && make-user-dic.bat",
+    "build": "rollup -c && npm run dic",
     "prepack": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
