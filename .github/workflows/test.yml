@@ -30,9 +30,7 @@ jobs:
   test:
     runs-on: windows-2019
     steps:
-    - uses: actions/checkout@v3
-      with:
-        lfs: true
+    - uses: nschloe/action-cached-lfs-checkout@v1
 
     - uses: actions/setup-node@v3
       with:
