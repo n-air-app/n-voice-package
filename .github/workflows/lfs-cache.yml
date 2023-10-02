@@ -1,0 +1,11 @@
+name: lfs-cache
+
+on:
+  schedule:
+    - cron: '0 0 1,7,13,20,26 * *'
+
+jobs:
+  test:
+    runs-on: windows-2019
+    steps:
+    - uses: nschloe/action-cached-lfs-checkout@v1
