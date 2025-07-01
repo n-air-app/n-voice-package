@@ -3,6 +3,7 @@ name: lfs-cache
 on:
   schedule:
     - cron: "0 0 1,7,13,20,26 * *"
+  workflow_dispatch:
 
 jobs:
   test:
