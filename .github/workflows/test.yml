@@ -30,7 +30,7 @@ jobs:
   test:
     runs-on: windows-2022
     steps:
-    - uses: nschloe/action-cached-lfs-checkout@f46300cd8952454b9f0a21a3d133d4bd5684cfc2 # v1.2.3
+    - uses: n-air-app/action-cached-lfs-checkout@6def4ea51ae9d33a76cdde8af51210625123d96e # hash-pinning対応版
 
     - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
       with:
