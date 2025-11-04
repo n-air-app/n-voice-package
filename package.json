@@ -23,7 +23,7 @@
   "author": "",
   "license": "SEE LICENSE IN n-voice/LICENSE/LICENSE_N-Voice.txt",
   "dependencies": {
-    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-babel": "^6.1.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@types/node": "^24.9.1",
     "rollup": "^4.52.5",
