@@ -20,6 +20,9 @@
     "prepack": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "author": "",
   "license": "SEE LICENSE IN n-voice/LICENSE/LICENSE_N-Voice.txt",
   "dependencies": {
