@@ -27,7 +27,7 @@
   "license": "SEE LICENSE IN n-voice/LICENSE/LICENSE_N-Voice.txt",
   "dependencies": {
     "@rollup/plugin-babel": "^6.1.0",
-    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-terser": "^1.0.0",
     "@types/node": "^25.3.0",
     "rollup": "^4.59.0",
     "rollup-plugin-typescript2": "^0.36.0",
