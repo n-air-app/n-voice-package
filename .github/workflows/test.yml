@@ -30,9 +30,9 @@ jobs:
   test:
     runs-on: windows-2022
     steps:
-    - uses: n-air-app/action-cached-lfs-checkout@6def4ea51ae9d33a76cdde8af51210625123d96e # hash-pinning対応版
+    - uses: n-air-app/action-cached-lfs-checkout@23b056ad8f953e903c669aeb3b26294890c864ad # hash-pinning対応版
 
-    - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+    - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
       with:
         node-version: '22'
         cache: 'npm'
