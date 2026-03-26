@@ -9,7 +9,7 @@ export default [
       file: 'dist/index.es.js', format: 'es',
     },
     plugins: [
-      typescript(),
+      typescript({ include: ['**/*.ts{,x}', '**/*.cts', '**/*.mts'] }),
     ],
   },
 
@@ -23,7 +23,7 @@ export default [
       indent: false,
     },
     plugins: [
-      typescript(),
+      typescript({ include: ['**/*.ts{,x}', '**/*.cts', '**/*.mts'] }),
       terser(),
     ],
   },
