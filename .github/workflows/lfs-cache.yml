@@ -9,4 +9,4 @@ jobs:
   test:
     runs-on: windows-2022
     steps:
-      - uses: n-air-app/action-cached-lfs-checkout@f46300cd8952454b9f0a21a3d133d4bd5684cfc2 # hash-pinning対応版
+      - uses: n-air-app/action-cached-lfs-checkout@23b056ad8f953e903c669aeb3b26294890c864ad # hash-pinning対応版
