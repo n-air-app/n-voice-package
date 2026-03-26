@@ -1,4 +1,4 @@
-import typescript from 'rollup-plugin-typescript2'
+import typescript from '@rollup/plugin-typescript'
 import terser from '@rollup/plugin-terser'
 
 export default [
@@ -9,7 +9,7 @@ export default [
       file: 'dist/index.es.js', format: 'es',
     },
     plugins: [
-      typescript({ include: ['**/*.ts{,x}', '**/*.cts', '**/*.mts'] }),
+      typescript({ declarationDir: 'dist' }),
     ],
   },
 
@@ -23,7 +23,7 @@ export default [
       indent: false,
     },
     plugins: [
-      typescript({ include: ['**/*.ts{,x}', '**/*.cts', '**/*.mts'] }),
+      typescript({ declarationDir: 'dist' }),
       terser(),
     ],
   },
