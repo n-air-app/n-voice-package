@@ -1,5 +1,4 @@
 import typescript from 'rollup-plugin-typescript2'
-import babel from '@rollup/plugin-babel'
 import terser from '@rollup/plugin-terser'
 
 export default [
@@ -11,10 +10,6 @@ export default [
     },
     plugins: [
       typescript(),
-      babel({
-        babelHelpers: 'bundled',
-        extensions: ['.ts'],
-      }),
     ],
   },
 
@@ -29,11 +24,6 @@ export default [
     },
     plugins: [
       typescript(),
-      babel({
-        babelHelpers: 'bundled',
-        extensions: ['.ts'],
-        exclude: 'node_modules/**',
-      }),
       terser(),
     ],
   },
