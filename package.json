@@ -30,6 +30,6 @@
     "@types/node": "^25.5.0",
     "rollup": "^4.60.0",
     "rollup-plugin-typescript2": "^0.36.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }
