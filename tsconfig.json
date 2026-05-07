@@ -3,9 +3,11 @@
     "./src/**/*"
   ],
   "compilerOptions": {
+    "rootDir": "./src",
     "target": "es6",
     "strict": true,
     "declaration": true, // generates declaration files
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["node"]
   }
 }
