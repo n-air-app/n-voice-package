@@ -25,7 +25,7 @@
   },
   "author": "",
   "license": "SEE LICENSE IN n-voice/LICENSE/LICENSE_N-Voice.txt",
-  "dependencies": {
+  "devDependencies": {
     "@rollup/plugin-terser": "^1.0.0",
     "@types/node": "^26.3.0",
     "rollup": "^4.62.5",
